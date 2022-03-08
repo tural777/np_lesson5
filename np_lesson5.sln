@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "udp_broadcast_client", "udp_broadcast_client\udp_broadcast_client.csproj", "{DF7E8CD4-5F76-48C5-8E0E-0D5F7C075013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "udp_broadcast_server", "udp_broadcast_server\udp_broadcast_server.csproj", "{7270FC66-8432-44F1-B854-8E0AA3A60047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "udp_multicast_server", "udp_multicast_server\udp_multicast_server.csproj", "{9CFA56A2-2414-44A1-B79F-49CA13FF310C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "udp_multicast_client", "udp_multicast_client\udp_multicast_client.csproj", "{21336705-F55B-4B11-A4BD-68BB6CE06CF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF7E8CD4-5F76-48C5-8E0E-0D5F7C075013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7E8CD4-5F76-48C5-8E0E-0D5F7C075013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7E8CD4-5F76-48C5-8E0E-0D5F7C075013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7E8CD4-5F76-48C5-8E0E-0D5F7C075013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7270FC66-8432-44F1-B854-8E0AA3A60047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7270FC66-8432-44F1-B854-8E0AA3A60047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7270FC66-8432-44F1-B854-8E0AA3A60047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7270FC66-8432-44F1-B854-8E0AA3A60047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFA56A2-2414-44A1-B79F-49CA13FF310C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFA56A2-2414-44A1-B79F-49CA13FF310C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFA56A2-2414-44A1-B79F-49CA13FF310C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFA56A2-2414-44A1-B79F-49CA13FF310C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21336705-F55B-4B11-A4BD-68BB6CE06CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21336705-F55B-4B11-A4BD-68BB6CE06CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21336705-F55B-4B11-A4BD-68BB6CE06CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21336705-F55B-4B11-A4BD-68BB6CE06CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BB57892-2A2E-4635-91C5-20889B0C39A0}
+	EndGlobalSection
+EndGlobal
